@@ -1,0 +1,37 @@
+#define GWorld 0x1714d538
+uintptr_t UWORLD = 0x1714d538;
+ 
+uintptr_t Gameinstance = 0x210;
+uintptr_t LocalPlayers = 0x38;
+uintptr_t PlayerController = 0x30;
+uintptr_t LocalPawn = 0x350;  // (AcknowledgedPawn)
+uintptr_t PlayerState = 0x2c8; // APawn -> AplayerState PlayerState
+uintptr_t RootComponet = 0x1b0; // AActor -> UInputComponent (?) -> InputComponent
+uintptr_t GameState = 0x198; // UWorld -> AGameStateBase GameState 
+uintptr_t PersistentLevel = 0x38; // UWorld -> ULevel PersistentLevel
+ 
+uintptr_t ActorCount = 0xA8;
+uintptr_t Cameramanager = 0x360; // PlayerCameraManager
+uintptr_t AActor = 0x1A8;
+ 
+uintptr_t Mesh = 0x328;
+uintptr_t TeamIndex = 0x1259; // could be AFortPlayerStateAthena -> TeamIndex
+ 
+uintptr_t ActorTeamId = 0x1259;
+uintptr_t IsDBNO = 0x962;
+ 
+uintptr_t ComponetToWorld = 0x1e0;
+ 
+uintptr_t BoneArray = 0x5C8;
+uintptr_t BoneCache = 0x5B8;
+ 
+uintptr_t Private = 0x320; // PawnPrivate
+uintptr_t PlayerArray = 0x2c0; //AGameStateBase -> PlayerArray
+uintptr_t relativelocation = 0x120;
+uintptr_t CurrentWeapon = 0xa80;
+uintptr_t bIsCrouched = 0x4b3; // ACharacter -> bIsCrouched
+ 
+uintptr_t bIsReloadingWeapon = 0x3b1; // AFortWeapon -> bIsReloadingWeapon
+ 
+uintptr_t currentgun = 0xa80;
+uintptr_t AmmoCount = 0xefc;
